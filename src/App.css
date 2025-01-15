@@ -1,0 +1,5 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  padding-top: 60px; /* Space for fixed navbar */
+}
