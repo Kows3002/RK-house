@@ -33,9 +33,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects/completed-projects" element={<CompletedProjects />} />
           <Route path="/projects/upcoming-projects" element={<UpcomingProjects />} />
-          <Route path="/virtual-tours" element={<VirtualTours />} />
-          <Route path="/emi-calculator" element={<EMICalculator />} />
-          <Route path="/compare-properties" element={<CompareProperties />} />
+          <Route path="/features/virtual-tours" element={<VirtualTours />} />
+          <Route path="/features/emi-calculator" element={<EMICalculator />} />
+          <Route path="/features/compare-properties" element={<CompareProperties />} />
           <Route path="/services/buying" element={<PropertyBuying />} />
           <Route path="/services/selling" element={<PropertySelling />} />
           <Route path="/services/rental" element={<RentalServices />} />

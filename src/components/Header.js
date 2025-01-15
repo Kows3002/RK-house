@@ -44,15 +44,15 @@ const Header = () => {
           <div className="feature-dropdown">
             <span className="feature-link">Features</span>
             <div className="feature-dropdown-content">
-              <Link to="/features/virtual-tour" className="dropdown-item">
+              <Link to="/features/virtual-tours" className="dropdown-item">
                 <i className="fas fa-vr-cardboard"></i>
                 Virtual Tours
               </Link>
-              <Link to="/features/calculator" className="dropdown-item">
+              <Link to="/features/emi-calculator" className="dropdown-item">
                 <i className="fas fa-calculator"></i>
                 EMI Calculator
               </Link>
-              <Link to="/features/compare" className="dropdown-item">
+              <Link to="/features/compare-properties" className="dropdown-item">
                 <i className="fas fa-balance-scale"></i>
                 Compare Properties
               </Link>
@@ -75,7 +75,7 @@ const Header = () => {
                 <i className="fas fa-building"></i>
                 Residential Projects
               </Link>
-              <Link to="/projects/commercial" className="dropdown-item">
+              <Link to="/projects/commercial-projects" className="dropdown-item">
                 <i className="fas fa-store"></i>
                 Commercial Projects
               </Link>
