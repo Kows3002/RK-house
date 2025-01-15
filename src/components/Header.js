@@ -79,11 +79,11 @@ const Header = () => {
                 <i className="fas fa-store"></i>
                 Commercial Projects
               </Link>
-              <Link to="/projects/upcoming" className="dropdown-item">
+              <Link to="/projects/upcoming-projects" className="dropdown-item">
                 <i className="fas fa-clock"></i>
                 Upcoming Projects
               </Link>
-              <Link to="/projects/completed" className="dropdown-item">
+              <Link to="/projects/completed-projects" className="dropdown-item">
                 <i className="fas fa-check-circle"></i>
                 Completed Projects
               </Link>

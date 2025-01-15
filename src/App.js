@@ -31,8 +31,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/completed-projects" element={<CompletedProjects />} />
-          <Route path="/upcoming-projects" element={<UpcomingProjects />} />
+          <Route path="/projects/completed-projects" element={<CompletedProjects />} />
+          <Route path="/projects/upcoming-projects" element={<UpcomingProjects />} />
           <Route path="/virtual-tours" element={<VirtualTours />} />
           <Route path="/emi-calculator" element={<EMICalculator />} />
           <Route path="/compare-properties" element={<CompareProperties />} />
